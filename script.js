@@ -1,6 +1,7 @@
 const noButton = document.getElementById('noButton');
 const yesButton = document.getElementById('yesButton');
 const catGifContainer = document.getElementById('catGifContainer');
+const music = document.getElementById('music');
 
 noButton.addEventListener('mouseover', () => {
     const x = Math.random() * (window.innerWidth - noButton.offsetWidth);
@@ -13,6 +14,8 @@ noButton.addEventListener('mouseover', () => {
 yesButton.addEventListener('click', () => {
     // Show the cat GIF container
     catGifContainer.style.display = 'block';
-    // Optional: Hide the buttons after clicking "Yes"
+    // Play the music
+    music.play();
+    // Hide the buttons after clicking "Yes"
     document.querySelector('.buttons').style.display = 'none';
 });

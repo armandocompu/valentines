@@ -58,3 +58,18 @@ button {
     margin-top: 20px;
     border-radius: 10px;
 }
+
+#catGifContainer {
+    display: none;
+    text-align: center;
+}
+
+#catGifContainer h2 {
+    color: #ff6f61;
+    font-size: 24px;
+}
+
+#music {
+    display: none;
+    /* Hide the audio element initially */
+}
